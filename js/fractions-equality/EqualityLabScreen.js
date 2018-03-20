@@ -12,25 +12,29 @@ define( function( require ) {
   var Screen = require( 'JOIST/Screen' );
   var fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
   var FractionsEqualityModel = require( 'FRACTIONS_EQUALITY/fractions-equality/model/FractionsEqualityModel' );
-  var FractionsEqualityScreenView = require( 'FRACTIONS_EQUALITY/fractions-equality/view/FractionsEqualityScreenView' );
+  var EqualityLabScreenView = require( 'FRACTIONS_EQUALITY/fractions-equality/view/EqualityLabScreenView' );
+
+  // strings
+  var screenEqualityLabString = require( 'string!FRACTIONS_EQUALITY/screen.equalityLab' );
 
   /**
    * @constructor
    */
-  function FractionsEqualityScreen() {
+  function EqualityLabScreen() {
 
     var options = {
+      name: screenEqualityLabString,
       backgroundColorProperty: new Property( 'white' )
     };
 
     Screen.call( this,
       function() { return new FractionsEqualityModel(); },
-      function( model ) { return new FractionsEqualityScreenView( model ); },
+      function( model ) { return new EqualityLabScreenView( model ); },
       options
     );
   }
 
-  fractionsEquality.register( 'FractionsEqualityScreen', FractionsEqualityScreen );
+  fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
 
-  return inherit( Screen, FractionsEqualityScreen );
+  return inherit( Screen, EqualityLabScreen );
 } );

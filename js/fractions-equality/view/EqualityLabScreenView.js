@@ -16,7 +16,7 @@ define( function( require ) {
    * @param {FractionsEqualityModel} fractionsEqualityModel
    * @constructor
    */
-  function FractionsEqualityScreenView( fractionsEqualityModel ) {
+  function EqualityLabScreenView( fractionsEqualityModel ) {
 
     ScreenView.call( this );
 
@@ -31,9 +31,9 @@ define( function( require ) {
     this.addChild( resetAllButton );
   }
 
-  fractionsEquality.register( 'FractionsEqualityScreenView', FractionsEqualityScreenView );
+  fractionsEquality.register( 'EqualityLabScreenView', EqualityLabScreenView );
 
-  return inherit( ScreenView, FractionsEqualityScreenView, {
+  return inherit( ScreenView, EqualityLabScreenView, {
 
     //TODO Called by the animation loop. Optional, so if your view has no animation, please delete this.
     // @public

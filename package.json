@@ -11,6 +11,15 @@
   },
   "phet": {
     "requirejsNamespace": "FRACTIONS_EQUALITY",
+    "phetLibs": [
+      "fraction-matcher",
+      "fractions-common",
+      "vegas",
+      "vibe"
+    ],
+    "preload": [
+      "../sherpa/lib/Tween-r12.js"
+    ],
     "runnable": true,
     "supportedBrands": [
       "phet",

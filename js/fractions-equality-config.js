@@ -29,7 +29,9 @@ require.config( {
     AXON: '../../axon/js',
     BRAND: '../../brand/' + phet.chipper.brand + '/js',
     DOT: '../../dot/js',
+    FRACTIONS_COMMON: '../../fractions-common/js',
     FRACTIONS_EQUALITY: '.',
+    FRACTION_MATCHER: '../../fraction-matcher/js',
     JOIST: '../../joist/js',
     KITE: '../../kite/js',
     PHETCOMMON: '../../phetcommon/js',
@@ -39,7 +41,9 @@ require.config( {
     SCENERY: '../../scenery/js',
     SCENERY_PHET: '../../scenery-phet/js',
     SUN: '../../sun/js',
-    TANDEM: '../../tandem/js'
+    TANDEM: '../../tandem/js',
+    VEGAS: '../../vegas/js',
+    VIBE: '../../vibe/js'
   },
 
   // optional cache buster to make browser refresh load all included scripts, can be disabled with ?cacheBuster=false
