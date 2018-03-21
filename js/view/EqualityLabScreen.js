@@ -1,18 +1,21 @@
-// Copyright 2018, University of Colorado Boulder
+// Copyright 2017, University of Colorado Boulder
 
 /**
+ * TODO: doc
+ *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
 define( function( require ) {
   'use strict';
 
   // modules
+  var EqualityLabModel = require( 'FRACTIONS_COMMON/intro/model/EqualityLabModel' );
+  var EqualityLabScreenView = require( 'FRACTIONS_COMMON/intro/view/EqualityLabScreenView' );
+  var Color = require( 'SCENERY/util/Color' );
+  var fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
   var inherit = require( 'PHET_CORE/inherit' );
   var Property = require( 'AXON/Property' );
   var Screen = require( 'JOIST/Screen' );
-  var fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
-  var FractionsEqualityModel = require( 'FRACTIONS_EQUALITY/fractions-equality/model/FractionsEqualityModel' );
-  var EqualityLabScreenView = require( 'FRACTIONS_EQUALITY/fractions-equality/view/EqualityLabScreenView' );
 
   // strings
   var screenEqualityLabString = require( 'string!FRACTIONS_EQUALITY/screen.equalityLab' );
@@ -24,11 +27,11 @@ define( function( require ) {
 
     var options = {
       name: screenEqualityLabString,
-      backgroundColorProperty: new Property( 'white' )
+      backgroundColorProperty: new Property( Color.WHITE )
     };
 
     Screen.call( this,
-      function() { return new FractionsEqualityModel(); },
+      function() { return new EqualityLabModel(); },
       function( model ) { return new EqualityLabScreenView( model ); },
       options
     );

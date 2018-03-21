@@ -11,7 +11,7 @@ define( function( require ) {
   // modules
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
-  var EqualityLabScreen = require( 'FRACTIONS_EQUALITY/fractions-equality/EqualityLabScreen' );
+  var EqualityLabScreen = require( 'FRACTIONS_EQUALITY/view/EqualityLabScreen' );
   var FractionsScreen = require( 'FRACTION_MATCHER/FractionsScreen' );
   var Tandem = require( 'TANDEM/Tandem' );
 
