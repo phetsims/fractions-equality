@@ -11,10 +11,9 @@ define( function( require ) {
   // modules
   var EqualityLabModel = require( 'FRACTIONS_COMMON/intro/model/EqualityLabModel' );
   var EqualityLabScreenView = require( 'FRACTIONS_COMMON/intro/view/EqualityLabScreenView' );
-  var Color = require( 'SCENERY/util/Color' );
+  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
   var fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
   var inherit = require( 'PHET_CORE/inherit' );
-  var Property = require( 'AXON/Property' );
   var Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -27,7 +26,7 @@ define( function( require ) {
 
     var options = {
       name: screenEqualityLabString,
-      backgroundColorProperty: new Property( Color.WHITE )
+      backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty
     };
 
     Screen.call( this,
