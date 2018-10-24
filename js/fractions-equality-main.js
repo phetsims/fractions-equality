@@ -12,7 +12,7 @@ define( function( require ) {
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
   var EqualityLabScreen = require( 'FRACTIONS_EQUALITY/view/EqualityLabScreen' );
-  var FractionsScreen = require( 'FRACTION_MATCHER/FractionsScreen' );
+  var FractionsScreen = require( 'FRACTION_MATCHER/view/FractionsScreen' );
   var Tandem = require( 'TANDEM/Tandem' );
 
   // strings
