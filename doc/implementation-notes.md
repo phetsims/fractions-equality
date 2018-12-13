@@ -1,1 +1,1 @@
-TODO implementation overview
+See https://github.com/phetsims/fractions-common/blob/master/doc/implementation-notes.md

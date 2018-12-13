@@ -1,1 +1,1 @@
-TODO model description
+See https://github.com/phetsims/fractions-common/blob/master/doc/model.md
