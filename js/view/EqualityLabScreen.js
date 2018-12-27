@@ -1,42 +1,36 @@
 // Copyright 2018, University of Colorado Boulder
 
 /**
- * TODO: doc
+ * Equality Lab screen for Fractions: Equality
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( function( require ) {
+define( require => {
   'use strict';
 
   // modules
-  var EqualityLabModel = require( 'FRACTIONS_COMMON/intro/model/EqualityLabModel' );
-  var EqualityLabScreenView = require( 'FRACTIONS_COMMON/intro/view/EqualityLabScreenView' );
-  var FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  var fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
-  var inherit = require( 'PHET_CORE/inherit' );
-  var Screen = require( 'JOIST/Screen' );
+  const EqualityLabModel = require( 'FRACTIONS_COMMON/intro/model/EqualityLabModel' );
+  const EqualityLabScreenView = require( 'FRACTIONS_COMMON/intro/view/EqualityLabScreenView' );
+  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
+  const fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
+  const Screen = require( 'JOIST/Screen' );
 
   // strings
-  var screenEqualityLabString = require( 'string!FRACTIONS_EQUALITY/screen.equalityLab' );
+  const screenEqualityLabString = require( 'string!FRACTIONS_EQUALITY/screen.equalityLab' );
 
-  /**
-   * @constructor
-   */
-  function EqualityLabScreen() {
-
-    var options = {
-      name: screenEqualityLabString,
-      backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty
-    };
-
-    Screen.call( this,
-      function() { return new EqualityLabModel(); },
-      function( model ) { return new EqualityLabScreenView( model ); },
-      options
-    );
+  class EqualityLabScreen extends Screen {
+    constructor() {
+      super(
+        () => new EqualityLabModel(),
+        model => new EqualityLabScreenView( model ),
+        {
+          name: screenEqualityLabString,
+          backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
+          homeScreenIcon: EqualityLabScreenView.createScreenIcon()
+        }
+      );
+    }
   }
 
-  fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
-
-  return inherit( Screen, EqualityLabScreen );
+  return fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
 } );
