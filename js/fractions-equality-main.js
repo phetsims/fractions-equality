@@ -10,7 +10,7 @@ define( require => {
 
   // modules
   const EqualityLabScreen = require( 'FRACTIONS_EQUALITY/view/EqualityLabScreen' );
-  const FractionsScreen = require( 'FRACTION_MATCHER/view/FractionsScreen' );
+  const FractionsScreen = require( 'FRACTIONS_EQUALITY/view/FractionsScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
