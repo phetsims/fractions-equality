@@ -27,7 +27,7 @@ define( require => {
      */
     constructor( tandem, options ) {
       super(
-        () => new FractionMatcherModel( false ),
+        () => new FractionMatcherModel( false, true ),
         model => new FractionMatcherView( model ),
         _.extend( {
           name: fractionsTitleString,
