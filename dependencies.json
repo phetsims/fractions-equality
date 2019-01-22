@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.0.0-rc.1 Wed Jan 16 2019 14:25:44 GMT-0700 (Mountain Standard Time)",
+  "comment": "# fractions-equality 1.0.0-rc.1 Tue Jan 22 2019 09:39:55 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "fractions-common": {
-    "sha": "cb0b32cfd32f65dcf254b8502465089a1ed5f2c4",
-    "branch": "HEAD"
+    "sha": "adc07ae9bbab2ab297ffc8d5fb09a86e18bc6a92",
+    "branch": "fractions-equality-1.0"
   },
   "fractions-equality": {
-    "sha": "82d2c49408a73e46296dc0d6d597a05cfa673455",
+    "sha": "72073975b83b25f0106b69163b5372f91bd95dc9",
     "branch": "1.0"
   },
   "joist": {
