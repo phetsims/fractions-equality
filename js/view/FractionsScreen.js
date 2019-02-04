@@ -14,7 +14,6 @@ define( require => {
   const fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
   const FractionMatcherModel = require( 'FRACTIONS_COMMON/matcher/model/FractionMatcherModel' );
   const FractionMatcherView = require( 'FRACTIONS_COMMON/matcher/view/FractionMatcherView' );
-  const IntroHomeScreenIcon = require( 'FRACTIONS_COMMON/matcher/view/IntroHomeScreenIcon' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -31,7 +30,7 @@ define( require => {
         model => new FractionMatcherView( model ),
         _.extend( {
           name: fractionsTitleString,
-          homeScreenIcon: new IntroHomeScreenIcon(),
+          homeScreenIcon: FractionMatcherView.createIntroHomeIcon(),
           tandem: tandem
         }, options )
       );
