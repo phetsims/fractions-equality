@@ -11,7 +11,6 @@ define( require => {
   // modules
   const EqualityLabScreen = require( 'FRACTIONS_EQUALITY/view/EqualityLabScreen' );
   const FractionsScreen = require( 'FRACTIONS_EQUALITY/view/FractionsScreen' );
-  const FractionsScreen2 = require( 'FRACTIONS_EQUALITY/view/FractionsScreen2' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
@@ -38,9 +37,6 @@ define( require => {
     const sim = new Sim( fractionsEqualityTitleString, [
       new EqualityLabScreen(),
       new FractionsScreen( tandem.createTandem( 'fractionsScreen' ), {
-        name: screenGameString
-      } ),
-      new FractionsScreen2( tandem.createTandem( 'fractionsScreen2' ), {
         name: screenGameString
       } )
     ], simOptions );
