@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.0.2 Wed Apr 17 2019 13:42:42 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-equality 1.0.3-rc.1 Thu Apr 18 2019 09:35:01 GMT-0800 (Alaskan Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -14,7 +14,7 @@
   },
   "chipper": {
     "sha": "847b00150924cf70c2cfa30c581a1660d52c98f6",
-    "branch": "fractions-equality-1.0"
+    "branch": "HEAD"
   },
   "dot": {
     "sha": "0f80ddafb9064f8ef20cfc0129492c280f2b6b52",
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "a751ca6f7fa31c12f1bbe26598429d6fcb324d75",
+    "sha": "2329a6f67562bbb474714463aa5ba5fde3e44e7b",
     "branch": "1.0"
   },
   "joist": {
