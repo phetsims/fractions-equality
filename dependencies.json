@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.0.3 Wed Apr 24 2019 15:43:12 GMT-0800 (Alaskan Daylight Time)",
+  "comment": "# fractions-equality 1.0.3 Fri May 24 2019 14:44:03 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -13,8 +13,8 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "847b00150924cf70c2cfa30c581a1660d52c98f6",
-    "branch": "HEAD"
+    "sha": "833862b22c7307f8f42f78dd87d45f48114c6dbc",
+    "branch": "fractions-equality-1.0"
   },
   "dot": {
     "sha": "0f80ddafb9064f8ef20cfc0129492c280f2b6b52",
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "549b090951a34362dd7887dd8975840b783a281c",
+    "sha": "c052b7d2a1ac624b272ec542de00e8878e9dcb98",
     "branch": "1.0"
   },
   "joist": {
@@ -46,18 +46,6 @@
   },
   "phet-io": {
     "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-classroom-activity": {
-    "sha": "64aff78db6605aa5317724d50fdb28bd9cf495e2",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-hookes-law-energy": {
-    "sha": "edb231a365b0b81c976f6e502874a234a0284915",
-    "branch": "HEAD"
-  },
-  "phet-io-wrapper-lab-book": {
-    "sha": "fb5c98c155259e2bdd37eb64e30081017a6e1d09",
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
