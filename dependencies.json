@@ -1,111 +1,99 @@
 {
-  "comment": "# fractions-equality 1.0.0-dev.8 Fri Jan 11 2019 16:50:10 GMT-0700 (Mountain Standard Time)",
+  "comment": "# fractions-equality 1.1.0-rc.0 Wed Jun 05 2019 14:17:46 GMT-0600 (Mountain Daylight Time)",
   "assert": {
-    "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
+    "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "master"
   },
   "axon": {
-    "sha": "78b0dfc4c54df032325c30523c8c9640635a0b8a",
+    "sha": "656e24d23d68bfc28739d97ad0de6ac7000bcf12",
     "branch": "master"
   },
   "brand": {
-    "sha": "762433e39f1c5fedd5b8b8457151b3176652ddbe",
+    "sha": "40dd405ec950d10e15e957cbda3d97362e925bef",
     "branch": "master"
   },
   "chipper": {
-    "sha": "c8f3764d8b0846df485123ab158058147d70eeb7",
+    "sha": "0a0249adbf6d8fb8e717cb35a28574424e5fccd2",
     "branch": "master"
   },
   "dot": {
-    "sha": "0f80ddafb9064f8ef20cfc0129492c280f2b6b52",
+    "sha": "2074cc6c441c8438af4256231c9b092bbef4d3e5",
     "branch": "master"
   },
   "fraction-matcher": {
-    "sha": "69d49bf9b8c2113f88e960c4d830d4a9d2470b19",
+    "sha": "36ebb80ec29dc83c33b8455c10004c327f523d4b",
     "branch": "master"
   },
   "fractions-common": {
-    "sha": "9a68191a8fd459bab41fa4c2e54a07992136a2db",
+    "sha": "d03be58d564a5a48bf7412ad88f50909c1406c81",
     "branch": "master"
   },
   "fractions-equality": {
-    "sha": "b4cb4ab655e11bbd3dc46300ccc04e8c61a67fbb",
-    "branch": "master"
+    "sha": "3465c1dfaaecf1a5a44b2b7f8c281412a6a38ce9",
+    "branch": "1.1"
   },
   "joist": {
-    "sha": "2fbde2d5aebfcd02f4d1cf0afba58d52c0e03190",
+    "sha": "159f6b671e2f3700fbcc649850d6bd8ce5547988",
     "branch": "master"
   },
   "kite": {
-    "sha": "663e0e960556fb4b0a6ae5e92b6ec41a00753c0c",
+    "sha": "4ec082deba698c64bba483ba6cfb9a6adcf70150",
     "branch": "master"
   },
   "phet-core": {
-    "sha": "91d26185248da7218f9615cec994ac753c94294f",
+    "sha": "9c28f8db3681e85a4e5779b758bb34e1a6d05c10",
     "branch": "master"
   },
   "phet-io": {
-    "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
-    "branch": "master"
-  },
-  "phet-io-wrapper-classroom-activity": {
-    "sha": "64aff78db6605aa5317724d50fdb28bd9cf495e2",
-    "branch": "master"
-  },
-  "phet-io-wrapper-hookes-law-energy": {
-    "sha": "edb231a365b0b81c976f6e502874a234a0284915",
-    "branch": "master"
-  },
-  "phet-io-wrapper-lab-book": {
-    "sha": "fb5c98c155259e2bdd37eb64e30081017a6e1d09",
+    "sha": "362a5e485cadf9c562b4627e1936203b6df6b29c",
     "branch": "master"
   },
   "phet-io-wrappers": {
-    "sha": "c82b7f7ae8ba8030f2cbd1d4ed8e9e95b876ba17",
+    "sha": "5ea16f46d6311b76ac8c3c780b4007baa465ceec",
     "branch": "master"
   },
   "phetcommon": {
-    "sha": "06325562f2d56120a34b2e09a2f513d87bda11cd",
+    "sha": "ea3bd75fec8a3ba5afe2f6df23cf4be18d767cec",
+    "branch": "master"
+  },
+  "phetmarks": {
+    "sha": "01cbbd71ad4ca7d29bf68de518e0d3215acf3528",
     "branch": "master"
   },
   "query-string-machine": {
-    "sha": "f3706987caa192b5e69de7f0f3a4b52aba21e771",
+    "sha": "922f2aa3cf7c3250abe70ef949a4ce539530f902",
     "branch": "master"
   },
   "scenery": {
-    "sha": "6ab6d1cc337b8e5bf7969c989d7b81c4c5951f4d",
+    "sha": "6a58f5060a42e78fa86e218b1ac130318dbad6c8",
     "branch": "master"
   },
   "scenery-phet": {
-    "sha": "75e3607015dc5d981fe611740bfe046fd4d8c9c3",
+    "sha": "96020107486f51e3ee435abf9e972faec3e95ac7",
     "branch": "master"
   },
   "sherpa": {
-    "sha": "948995d1c635f8738c9c9a5cbfb624e0d8fd2de0",
+    "sha": "2a32165bfe80cf50a85af442ff7073333418bd70",
     "branch": "master"
   },
   "sun": {
-    "sha": "34f093b2cbdc582b7eddf344f1d8edd0dc5d7910",
+    "sha": "7f26ea56b155c26d3154cfe62acf89031c51479c",
     "branch": "master"
   },
   "tambo": {
-    "sha": "ce467d681de1207c46c3281452bf016b75bcaae0",
+    "sha": "c41965192cce13537777af17f98d3f3e37b5ed2e",
     "branch": "master"
   },
   "tandem": {
-    "sha": "88ea2c1bb26e6e4355a7e2cca2880168e84dd6dd",
+    "sha": "c2a8917242dba2c42abc1ac7e0e65a7e543c2f75",
     "branch": "master"
   },
   "twixt": {
-    "sha": "288ac414d900c297d7b4754b59d34171558f87d7",
+    "sha": "bbffb639dd798fccd395d1d41c4919396a22172a",
     "branch": "master"
   },
   "vegas": {
-    "sha": "9c74668acc238cb546d95d3761f34626f80de9c5",
-    "branch": "master"
-  },
-  "vibe": {
-    "sha": "a3174d83e533546e4407e3344a435a1ec7e6f275",
+    "sha": "7003185382eb15209c6ce3053315ca069f573428",
     "branch": "master"
   }
 }
