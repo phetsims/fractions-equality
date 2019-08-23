@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.1.0-rc.2 Mon Aug 19 2019 13:43:30 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-equality 1.1.0-rc.2 Fri Aug 23 2019 16:01:47 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "HEAD"
@@ -25,16 +25,16 @@
     "branch": "HEAD"
   },
   "fractions-common": {
-    "sha": "86b4069a7ac162ed758bdcc49894573d609c471b",
-    "branch": "HEAD"
+    "sha": "707fc813c5861814e962f2d745c01bc21a343220",
+    "branch": "fractions-equality-1.1"
   },
   "fractions-equality": {
-    "sha": "8e76ead2bfc25386f9a88708295ff258260b300e",
+    "sha": "816e6912962560f248471d5d55277042a4777d5a",
     "branch": "1.1"
   },
   "joist": {
     "sha": "422c854c80cc08f7673c97e3a9b95e2119a56a45",
-    "branch": "fractions-equality-1.1"
+    "branch": "HEAD"
   },
   "kite": {
     "sha": "4ec082deba698c64bba483ba6cfb9a6adcf70150",
@@ -66,11 +66,11 @@
   },
   "scenery": {
     "sha": "00bd1dae1659146bdfd42bcf31fa2ed133d8ec5b",
-    "branch": "fractions-equality-1.1"
+    "branch": "HEAD"
   },
   "scenery-phet": {
     "sha": "1bcc359ead53e1123ee8ca601bf379342ada5076",
-    "branch": "fractions-equality-1.1"
+    "branch": "HEAD"
   },
   "sherpa": {
     "sha": "2a32165bfe80cf50a85af442ff7073333418bd70",
