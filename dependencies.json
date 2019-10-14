@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.0.9 Thu Oct 03 2019 11:35:54 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-equality 1.0.9 Mon Oct 14 2019 14:06:11 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "5407993d77f0bb5a1ad63c112103ed4d22dbd1b7",
     "branch": "HEAD"
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "9ac261dd9497f391f406518263d58f22a45a930c",
+    "sha": "f5cafa1de63084a46db43632203a9cc7fa290cd1",
     "branch": "1.0"
   },
   "joist": {
@@ -41,8 +41,8 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "b477cbae4844815a92e8b28ba51fd72c3ad0f0c4",
-    "branch": "HEAD"
+    "sha": "43b2ad23a46dd9d553d441524d423922ef35beb1",
+    "branch": "fractions-equality-1.0"
   },
   "phet-io": {
     "sha": "9b6c6ffb646d99caf18b4f7168f0d093ef80f9c4",
@@ -97,7 +97,7 @@
     "branch": "HEAD"
   },
   "vibe": {
-    "sha": "a3174d83e533546e4407e3344a435a1ec7e6f275",
-    "branch": "HEAD"
+    "sha": "52a814700d4745620fe313c9417c58cc259d5c4f",
+    "branch": "fractions-equality-1.0"
   }
 }
