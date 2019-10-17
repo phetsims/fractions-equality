@@ -14,6 +14,7 @@ define( require => {
   const fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
   const MatchingGameModel = require( 'FRACTIONS_COMMON/matching/model/MatchingGameModel' );
   const MatchingGameScreenView = require( 'FRACTIONS_COMMON/matching/view/MatchingGameScreenView' );
+  const merge = require( 'PHET_CORE/merge' );
   const Screen = require( 'JOIST/Screen' );
 
   // strings
@@ -28,7 +29,7 @@ define( require => {
       super(
         () => new MatchingGameModel( false, true ),
         model => new MatchingGameScreenView( model ),
-        _.extend( {
+        merge( {
           name: fractionsTitleString,
           homeScreenIcon: MatchingGameScreenView.createIntroHomeIcon(),
           tandem: tandem
