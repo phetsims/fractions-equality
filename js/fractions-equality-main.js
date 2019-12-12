@@ -20,7 +20,7 @@ define( require => {
   const screenGameString = require( 'string!FRACTIONS_EQUALITY/screen.game' );
 
   // constants
-  const tandem = Tandem.rootTandem;
+  const tandem = Tandem.ROOT;
 
   const simOptions = {
     credits: {
