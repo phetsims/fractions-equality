@@ -7,36 +7,33 @@
  * @author Andrew Zelenkov (Mlearner)
  * @author Sam Reid (PhET Interactive Simulations)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
-  const MatchingGameModel = require( 'FRACTIONS_COMMON/matching/model/MatchingGameModel' );
-  const MatchingGameScreenView = require( 'FRACTIONS_COMMON/matching/view/MatchingGameScreenView' );
-  const merge = require( 'PHET_CORE/merge' );
-  const Screen = require( 'JOIST/Screen' );
+import fractionMatcherStrings from '../../../fraction-matcher/js/fraction-matcher-strings.js';
+import MatchingGameModel from '../../../fractions-common/js/matching/model/MatchingGameModel.js';
+import MatchingGameScreenView from '../../../fractions-common/js/matching/view/MatchingGameScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import merge from '../../../phet-core/js/merge.js';
+import fractionsEquality from '../fractionsEquality.js';
 
-  // strings
-  const fractionsTitleString = require( 'string!FRACTION_MATCHER/fractionsTitle' );
+const fractionsTitleString = fractionMatcherStrings.fractionsTitle;
 
-  class FractionsScreen extends Screen {
-    /**
-     * @param {Tandem} tandem
-     * @param {Object} [options]
-     */
-    constructor( tandem, options ) {
-      super(
-        () => new MatchingGameModel( false, true ),
-        model => new MatchingGameScreenView( model ),
-        merge( {
-          name: fractionsTitleString,
-          homeScreenIcon: MatchingGameScreenView.createIntroHomeIcon(),
-          tandem: tandem
-        }, options )
-      );
-    }
+class FractionsScreen extends Screen {
+  /**
+   * @param {Tandem} tandem
+   * @param {Object} [options]
+   */
+  constructor( tandem, options ) {
+    super(
+      () => new MatchingGameModel( false, true ),
+      model => new MatchingGameScreenView( model ),
+      merge( {
+        name: fractionsTitleString,
+        homeScreenIcon: MatchingGameScreenView.createIntroHomeIcon(),
+        tandem: tandem
+      }, options )
+    );
   }
+}
 
-  return fractionsEquality.register( 'FractionsScreen', FractionsScreen );
-} );
+fractionsEquality.register( 'FractionsScreen', FractionsScreen );
+export default FractionsScreen;

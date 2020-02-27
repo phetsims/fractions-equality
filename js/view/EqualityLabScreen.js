@@ -5,32 +5,29 @@
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const EqualityLabModel = require( 'FRACTIONS_COMMON/intro/model/EqualityLabModel' );
-  const EqualityLabScreenView = require( 'FRACTIONS_COMMON/intro/view/EqualityLabScreenView' );
-  const FractionsCommonColorProfile = require( 'FRACTIONS_COMMON/common/view/FractionsCommonColorProfile' );
-  const fractionsEquality = require( 'FRACTIONS_EQUALITY/fractionsEquality' );
-  const Screen = require( 'JOIST/Screen' );
+import FractionsCommonColorProfile from '../../../fractions-common/js/common/view/FractionsCommonColorProfile.js';
+import EqualityLabModel from '../../../fractions-common/js/intro/model/EqualityLabModel.js';
+import EqualityLabScreenView from '../../../fractions-common/js/intro/view/EqualityLabScreenView.js';
+import Screen from '../../../joist/js/Screen.js';
+import fractionsEqualityStrings from '../fractions-equality-strings.js';
+import fractionsEquality from '../fractionsEquality.js';
 
-  // strings
-  const screenEqualityLabString = require( 'string!FRACTIONS_EQUALITY/screen.equalityLab' );
+const screenEqualityLabString = fractionsEqualityStrings.screen.equalityLab;
 
-  class EqualityLabScreen extends Screen {
-    constructor() {
-      super(
-        () => new EqualityLabModel(),
-        model => new EqualityLabScreenView( model ),
-        {
-          name: screenEqualityLabString,
-          backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
-          homeScreenIcon: EqualityLabScreenView.createScreenIcon()
-        }
-      );
-    }
+class EqualityLabScreen extends Screen {
+  constructor() {
+    super(
+      () => new EqualityLabModel(),
+      model => new EqualityLabScreenView( model ),
+      {
+        name: screenEqualityLabString,
+        backgroundColorProperty: FractionsCommonColorProfile.introScreenBackgroundProperty,
+        homeScreenIcon: EqualityLabScreenView.createScreenIcon()
+      }
+    );
   }
+}
 
-  return fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
-} );
+fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
+export default EqualityLabScreen;
