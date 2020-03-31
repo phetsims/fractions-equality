@@ -9,7 +9,7 @@
 import Sim from '../../joist/js/Sim.js';
 import SimLauncher from '../../joist/js/SimLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import fractionsEqualityStrings from './fractions-equality-strings.js';
+import fractionsEqualityStrings from './fractionsEqualityStrings.js';
 import EqualityLabScreen from './view/EqualityLabScreen.js';
 import FractionsScreen from './view/FractionsScreen.js';
 

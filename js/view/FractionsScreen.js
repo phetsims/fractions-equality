@@ -8,7 +8,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import fractionMatcherStrings from '../../../fraction-matcher/js/fraction-matcher-strings.js';
+import fractionMatcherStrings from '../../../fraction-matcher/js/fractionMatcherStrings.js';
 import MatchingGameModel from '../../../fractions-common/js/matching/model/MatchingGameModel.js';
 import MatchingGameScreenView from '../../../fractions-common/js/matching/view/MatchingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';

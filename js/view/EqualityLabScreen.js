@@ -10,7 +10,7 @@ import FractionsCommonColorProfile from '../../../fractions-common/js/common/vie
 import EqualityLabModel from '../../../fractions-common/js/intro/model/EqualityLabModel.js';
 import EqualityLabScreenView from '../../../fractions-common/js/intro/view/EqualityLabScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
-import fractionsEqualityStrings from '../fractions-equality-strings.js';
+import fractionsEqualityStrings from '../fractionsEqualityStrings.js';
 import fractionsEquality from '../fractionsEquality.js';
 
 const screenEqualityLabString = fractionsEqualityStrings.screen.equalityLab;
