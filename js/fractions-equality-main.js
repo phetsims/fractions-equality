@@ -7,7 +7,7 @@
  */
 
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import fractionsEqualityStrings from './fractionsEqualityStrings.js';
 import EqualityLabScreen from './view/EqualityLabScreen.js';
@@ -30,7 +30,7 @@ const simOptions = {
   }
 };
 
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
   const sim = new Sim( fractionsEqualityTitleString, [
     new EqualityLabScreen(),
     new FractionsScreen( tandem.createTandem( 'fractionsScreen' ), {
