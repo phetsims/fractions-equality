@@ -12,6 +12,7 @@ import fractionMatcherStrings from '../../../fraction-matcher/js/fractionMatcher
 import MatchingGameModel from '../../../fractions-common/js/matching/model/MatchingGameModel.js';
 import MatchingGameScreenView from '../../../fractions-common/js/matching/view/MatchingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import merge from '../../../phet-core/js/merge.js';
 import fractionsEquality from '../fractionsEquality.js';
 
@@ -28,7 +29,10 @@ class FractionsScreen extends Screen {
       model => new MatchingGameScreenView( model ),
       merge( {
         name: fractionsTitleString,
-        homeScreenIcon: MatchingGameScreenView.createIntroHomeIcon(),
+        homeScreenIcon: new ScreenIcon( MatchingGameScreenView.createIntroHomeIcon(), {
+          maxIconWidthProportion: 1,
+          maxIconHeightProportion: 1
+        } ),
         tandem: tandem
       }, options )
     );
