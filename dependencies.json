@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.1.2-rc.1 Sat May 08 2021 21:48:33 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# fractions-equality 1.1.2-rc.1 Mon May 10 2021 14:57:43 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "HEAD"
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "89771e7c40500a86d6cbb8efffc3a2443385b872",
+    "sha": "fc5987cca0318029fd8cf4889a952105a3030385",
     "branch": "1.1"
   },
   "joist": {
@@ -58,15 +58,15 @@
   },
   "phetmarks": {
     "sha": "5c159630b28200136e13d47e7b2e066faeb775c8",
-    "branch": "fractions-equality-1.1"
+    "branch": "HEAD"
   },
   "query-string-machine": {
     "sha": "5734b82f4a806ba57eaf68b4b20f0a8e9ef4ee03",
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "e724065657deeedb89123a0b1eeae82697ded46a",
-    "branch": "HEAD"
+    "sha": "cab6401dda77f9d358135f7a8dfd571917f676e1",
+    "branch": "fractions-equality-1.1"
   },
   "scenery-phet": {
     "sha": "1bcc359ead53e1123ee8ca601bf379342ada5076",
