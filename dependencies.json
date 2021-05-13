@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "6173e48286c041ae195a3625e3bcad47071b0d59",
+    "sha": "8ba6995a888e11583f805511244c03d153e58d3a",
     "branch": "1.1"
   },
   "joist": {
@@ -65,7 +65,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "3c09e773e37452ada6e709068bca934a07ba123a",
+    "sha": "76faab0897c1c9653e6c1ad6fe79a7efa371ca85",
     "branch": "fractions-equality-1.1"
   },
   "scenery-phet": {
