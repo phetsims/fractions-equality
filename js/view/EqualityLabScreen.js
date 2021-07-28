@@ -6,7 +6,7 @@
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
  */
 
-import fractionsCommonColorProfile from '../../../fractions-common/js/common/view/fractionsCommonColorProfile.js';
+import FractionsCommonColors from '../../../fractions-common/js/common/view/FractionsCommonColors.js';
 import EqualityLabModel from '../../../fractions-common/js/intro/model/EqualityLabModel.js';
 import EqualityLabScreenView from '../../../fractions-common/js/intro/view/EqualityLabScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -23,7 +23,7 @@ class EqualityLabScreen extends Screen {
       model => new EqualityLabScreenView( model ),
       {
         name: screenEqualityLabString,
-        backgroundColorProperty: fractionsCommonColorProfile.introScreenBackgroundProperty,
+        backgroundColorProperty: FractionsCommonColors.introScreenBackgroundProperty,
         homeScreenIcon: new ScreenIcon( EqualityLabScreenView.createScreenIcon(), {
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1
