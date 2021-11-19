@@ -3,11 +3,21 @@
 /**
  * Auto-generated from modulify, DO NOT manually modify.
  */
-
+/* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
 import fractionsEquality from './fractionsEquality.js';
 
-const fractionsEqualityStrings = getStringModule( 'FRACTIONS_EQUALITY' );
+type StringsType = {
+  'fractions-equality': {
+    'title': string
+  },
+  'screen': {
+    'equalityLab': string,
+    'game': string
+  }
+};
+
+const fractionsEqualityStrings = getStringModule( 'FRACTIONS_EQUALITY' ) as StringsType;
 
 fractionsEquality.register( 'fractionsEqualityStrings', fractionsEqualityStrings );
 
