@@ -9,11 +9,11 @@ import fractionsEquality from './fractionsEquality.js';
 
 type StringsType = {
   'fractions-equality': {
-    'title': string
-  },
+    'title': string;
+  };
   'screen': {
-    'equalityLab': string,
-    'game': string
+    'equalityLab': string;
+    'game': string;
   }
 };
 
