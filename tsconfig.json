@@ -1,26 +1,9 @@
 {
   "extends": "../chipper/tsconfig-core.json",
-  "references": [
-    {
-      "path": "../fraction-matcher"
-    },
-    {
-      "path": "../fractions-common"
-    },
-    {
-      "path": "../twixt/tsconfig-module.json"
-    },
-    {
-      "path": "../vegas"
-    },
-    {
-      "path": "../joist/tsconfig-module.json"
-    }
-  ],
   "include": [
     "js/**/*",
-    "sounds/**/*",
+    "images/**/*",
     "mipmaps/**/*",
-    "images/**/*"
+    "sounds/**/*"
   ]
 }
