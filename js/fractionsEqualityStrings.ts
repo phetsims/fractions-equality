@@ -5,15 +5,19 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
+import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import fractionsEquality from './fractionsEquality.js';
 
 type StringsType = {
   'fractions-equality': {
     'title': string;
+    'titleProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'equalityLab': string;
+    'equalityLabProperty': TReadOnlyProperty<string>;
     'game': string;
+    'gameProperty': TReadOnlyProperty<string>;
   }
 };
 
