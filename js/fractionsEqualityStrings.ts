@@ -11,13 +11,13 @@ import fractionsEquality from './fractionsEquality.js';
 type StringsType = {
   'fractions-equality': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   };
   'screen': {
     'equalityLab': string;
-    'equalityLabProperty': TReadOnlyProperty<string>;
+    'equalityLabStringProperty': TReadOnlyProperty<string>;
     'game': string;
-    'gameProperty': TReadOnlyProperty<string>;
+    'gameStringProperty': TReadOnlyProperty<string>;
   }
 };
 
