@@ -21,8 +21,8 @@ type StringsType = {
   }
 };
 
-const fractionsEqualityStrings = getStringModule( 'FRACTIONS_EQUALITY' ) as StringsType;
+const FractionsEqualityStrings = getStringModule( 'FRACTIONS_EQUALITY' ) as StringsType;
 
-fractionsEquality.register( 'fractionsEqualityStrings', fractionsEqualityStrings );
+fractionsEquality.register( 'FractionsEqualityStrings', FractionsEqualityStrings );
 
-export default fractionsEqualityStrings;
+export default FractionsEqualityStrings;

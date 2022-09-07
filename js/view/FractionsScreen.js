@@ -8,7 +8,7 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
-import fractionMatcherStrings from '../../../fraction-matcher/js/fractionMatcherStrings.js';
+import FractionMatcherStrings from '../../../fraction-matcher/js/FractionMatcherStrings.js';
 import MatchingGameModel from '../../../fractions-common/js/matching/model/MatchingGameModel.js';
 import MatchingGameScreenView from '../../../fractions-common/js/matching/view/MatchingGameScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
@@ -16,7 +16,7 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import merge from '../../../phet-core/js/merge.js';
 import fractionsEquality from '../fractionsEquality.js';
 
-const fractionsTitleString = fractionMatcherStrings.fractionsTitle;
+const fractionsTitleString = FractionMatcherStrings.fractionsTitle;
 
 class FractionsScreen extends Screen {
   /**

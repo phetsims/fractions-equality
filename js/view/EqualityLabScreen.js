@@ -12,9 +12,9 @@ import EqualityLabScreenView from '../../../fractions-common/js/intro/view/Equal
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import fractionsEquality from '../fractionsEquality.js';
-import fractionsEqualityStrings from '../fractionsEqualityStrings.js';
+import FractionsEqualityStrings from '../FractionsEqualityStrings.js';
 
-const screenEqualityLabString = fractionsEqualityStrings.screen.equalityLab;
+const screenEqualityLabString = FractionsEqualityStrings.screen.equalityLab;
 
 class EqualityLabScreen extends Screen {
   constructor() {

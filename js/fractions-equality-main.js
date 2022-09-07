@@ -9,12 +9,12 @@
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import fractionsEqualityStrings from './fractionsEqualityStrings.js';
+import FractionsEqualityStrings from './FractionsEqualityStrings.js';
 import EqualityLabScreen from './view/EqualityLabScreen.js';
 import FractionsScreen from './view/FractionsScreen.js';
 
-const fractionsEqualityTitleStringProperty = fractionsEqualityStrings[ 'fractions-equality' ].titleStringProperty;
-const screenGameString = fractionsEqualityStrings.screen.game;
+const fractionsEqualityTitleStringProperty = FractionsEqualityStrings[ 'fractions-equality' ].titleStringProperty;
+const screenGameString = FractionsEqualityStrings.screen.game;
 
 // constants
 const tandem = Tandem.ROOT;
