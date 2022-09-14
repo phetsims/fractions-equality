@@ -14,7 +14,6 @@ import EqualityLabScreen from './view/EqualityLabScreen.js';
 import FractionsScreen from './view/FractionsScreen.js';
 
 const fractionsEqualityTitleStringProperty = FractionsEqualityStrings[ 'fractions-equality' ].titleStringProperty;
-const screenGameString = FractionsEqualityStrings.screen.game;
 
 // constants
 const tandem = Tandem.ROOT;
@@ -34,7 +33,7 @@ simLauncher.launch( () => {
   const sim = new Sim( fractionsEqualityTitleStringProperty, [
     new EqualityLabScreen(),
     new FractionsScreen( tandem.createTandem( 'fractionsScreen' ), {
-      name: screenGameString
+      name: FractionsEqualityStrings.screen.gameStringProperty
     } )
   ], simOptions );
   sim.start();

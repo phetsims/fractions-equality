@@ -16,8 +16,6 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import merge from '../../../phet-core/js/merge.js';
 import fractionsEquality from '../fractionsEquality.js';
 
-const fractionsTitleString = FractionMatcherStrings.fractionsTitle;
-
 class FractionsScreen extends Screen {
   /**
    * @param {Tandem} tandem
@@ -28,7 +26,7 @@ class FractionsScreen extends Screen {
       () => new MatchingGameModel( false, true ),
       model => new MatchingGameScreenView( model ),
       merge( {
-        name: fractionsTitleString,
+        name: FractionMatcherStrings.fractionsTitleStringProperty,
         homeScreenIcon: new ScreenIcon( MatchingGameScreenView.createIntroHomeIcon(), {
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1

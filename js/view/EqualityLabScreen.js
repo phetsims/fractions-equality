@@ -14,15 +14,13 @@ import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import fractionsEquality from '../fractionsEquality.js';
 import FractionsEqualityStrings from '../FractionsEqualityStrings.js';
 
-const screenEqualityLabString = FractionsEqualityStrings.screen.equalityLab;
-
 class EqualityLabScreen extends Screen {
   constructor() {
     super(
       () => new EqualityLabModel(),
       model => new EqualityLabScreenView( model ),
       {
-        name: screenEqualityLabString,
+        name: FractionsEqualityStrings.screen.equalityLabStringProperty,
         backgroundColorProperty: FractionsCommonColors.introScreenBackgroundProperty,
         homeScreenIcon: new ScreenIcon( EqualityLabScreenView.createScreenIcon(), {
           maxIconWidthProportion: 1,
