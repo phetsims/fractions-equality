@@ -1,5 +1,5 @@
 {
-  "comment": "# fractions-equality 1.1.9-rc.1 Tue Jan 31 2023 15:35:26 GMT-0700 (Mountain Standard Time)",
+  "comment": "# fractions-equality 1.1.9 Wed Feb 01 2023 11:12:07 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
     "branch": "HEAD"
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "f07e449ac128868e6b3f243b1d600e547e38e27e",
+    "sha": "4ae0034f265145997781bb5957e89932c136883a",
     "branch": "1.1"
   },
   "joist": {
