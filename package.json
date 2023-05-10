@@ -23,7 +23,11 @@
       "phet",
       "adapted-from-phet"
     ],
-    "simulation": true
+    "simulation": true,
+    "screenNameKeys": [
+      "FRACTIONS_EQUALITY/screen.equalityLab",
+      "FRACTIONS_EQUALITY/screen.game"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
