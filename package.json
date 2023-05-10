@@ -27,7 +27,11 @@
     },
     "simulation": true,
     "supportsOutputJS": true,
-    "published": true
+    "published": true,
+    "screenNameKeys": [
+      "FRACTIONS_EQUALITY/screen.equalityLab",
+      "FRACTIONS_EQUALITY/screen.game"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js"
