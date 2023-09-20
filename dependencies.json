@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "cadaacb8227c58febeb66c3f527fd6dda33ee4c0",
+    "sha": "3b58d789a00e8b115cefe2bfd453cf2589042b5a",
     "branch": "1.1"
   },
   "joist": {
@@ -53,7 +53,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "cddf7c81852233ef1d8ec78fb004070196e2cde2",
+    "sha": "c27f6db4515ac2ac5238036c84c1f205c36c249a",
     "branch": "HEAD"
   },
   "phetmarks": {
