@@ -25,11 +25,11 @@
     "branch": "HEAD"
   },
   "fractions-common": {
-    "sha": "80e08c245023ee3408b753c124d36f9299e3ac07",
+    "sha": "7f8c3105c3910b5c17a68dfaf360e28a83545dc1",
     "branch": "HEAD"
   },
   "fractions-equality": {
-    "sha": "01c77b6073298e720014457565a90ecdd0e116b9",
+    "sha": "903812e27b0c3c467928845c0a76218d197e392f",
     "branch": "1.1"
   },
   "joist": {
