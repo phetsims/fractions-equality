@@ -5,5 +5,22 @@
     "images/**/*",
     "mipmaps/**/*",
     "sounds/**/*"
+  ],
+  "references": [
+    {
+      "path": "../fraction-matcher/tsconfig.json"
+    },
+    {
+      "path": "../fractions-common/tsconfig.json"
+    },
+    {
+      "path": "../twixt/tsconfig.json"
+    },
+    {
+      "path": "../vegas/tsconfig.json"
+    },
+    {
+      "path": "../chipper/tsconfig/buildjson"
+    }
   ]
 }
