@@ -42,7 +42,7 @@
         ],
         "parserOptions": {
           "project": [
-            "../fractions-equality/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
