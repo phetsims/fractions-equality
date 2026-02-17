@@ -3,7 +3,7 @@
 /**
  * Equality Lab screen for Fractions: Equality
  *
- * @author Jonathan Olson <jonathan.olson@colorado.edu>
+ * @author Jonathan Olson (PhET Interactive Simulations)
  */
 
 import FractionsCommonColors from '../../../fractions-common/js/common/view/FractionsCommonColors.js';
