@@ -14,7 +14,6 @@ import MatchingGameScreenView from '../../../fractions-common/js/matching/view/M
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
 import merge from '../../../phet-core/js/merge.js';
-import fractionsEquality from '../fractionsEquality.js';
 
 class FractionsScreen extends Screen {
   /**
@@ -37,5 +36,4 @@ class FractionsScreen extends Screen {
   }
 }
 
-fractionsEquality.register( 'FractionsScreen', FractionsScreen );
 export default FractionsScreen;

@@ -11,7 +11,6 @@ import EqualityLabModel from '../../../fractions-common/js/intro/model/EqualityL
 import EqualityLabScreenView from '../../../fractions-common/js/intro/view/EqualityLabScreenView.js';
 import Screen from '../../../joist/js/Screen.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import fractionsEquality from '../fractionsEquality.js';
 import FractionsEqualityStrings from '../FractionsEqualityStrings.js';
 
 class EqualityLabScreen extends Screen {
@@ -31,5 +30,4 @@ class EqualityLabScreen extends Screen {
   }
 }
 
-fractionsEquality.register( 'EqualityLabScreen', EqualityLabScreen );
 export default EqualityLabScreen;
