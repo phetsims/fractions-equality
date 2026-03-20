@@ -26,4 +26,6 @@ type StringsType = {
 
 const FractionsEqualityStrings = getStringModule( 'FRACTIONS_EQUALITY' ) as StringsType;
 
+fractionsEquality.register( 'FractionsEqualityStrings', FractionsEqualityStrings );
+
 export default FractionsEqualityStrings;
